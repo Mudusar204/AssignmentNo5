@@ -268,4 +268,77 @@
 // else{
 //     console.log("there is no profit and loss");
 // }
-// 18----> write a program to calculate profit and loss
+// 19----> write a program to input marks of 5 subjects and calculate percentage and grade
+// var num1: number|null =Number(prompt("type here your Math marks out of 100"))
+// var num2: number|null =Number(prompt("type here your Physics marks out of 100"))
+// var num3: number|null =Number(prompt("type here your Chemistry marks out of 100"))
+// var num4: number|null =Number(prompt("type here your Biology marks out of 100"))
+// var num5: number|null =Number(prompt("type here your Computer marks out of 100"))
+// var total: number = 500;
+// var obtainedMarks:number = num1+num2+num3+num4+num5
+// var percentage:number = (obtainedMarks/total) *100
+// if (percentage>=90){
+//     console.log("you have got grade A");
+// }
+// else if (percentage>=80 && percentage<=90){
+//     console.log("you have got grade B");
+// }
+// else if (percentage>=70 && percentage<=80){
+//     console.log("you have got grade C");
+// }
+// else if (percentage>=60 && percentage<=70){
+//     console.log("you have got grade D");
+// }
+// else if (percentage>=50 && percentage<=60){
+//     console.log("you have got grade E");
+// }
+// else console.log("you have got gare F");
+// 20---> Write a ts program to input basic salary and calculate the gross salary of an employement
+// var num : number|null = Number(prompt("type here your basic salary"));
+// var HRA1 : number =(num/100)*20
+// var DA1 : number =(num/100)*80
+// var total1 : number=num+HRA1+DA1
+// var HRA2 : number =(num/100)*25
+// var DA2 : number =(num/100)*90
+// var total2 : number=num+HRA2+DA2
+// var HRA3 : number =(num/100)*30
+// var DA3 : number =(num/100)*95
+// var total3 : number=num+HRA3+DA3
+// if (num<=10000){
+//     console.log( total1, " is your Gross salary");
+// }
+//  else if (num<=20000){
+//     console.log( total2, " is your Gross salary");
+// }
+// else if (num>20000){
+//     console.log( total3, " is your Gross salary");
+// }
+// else{
+//     console.log("enter a valid digits");
+// }
+// 21----> write a ts program to input electricity unit charges an dcalculate total electricity bill according to the given Condition
+// then add 20% of bill in it
+// var inputUnits : number = Number(prompt("enter your total units"))
+// var gradeA : number = (inputUnits*0.50) 
+// var total1: number = gradeA + (gradeA/100*20)
+// var gradeB : number = (inputUnits*0.75) 
+// var total2: number = gradeB + (gradeB/100*20)
+// var gradeC : number = (inputUnits*1.20) 
+// var total3: number = gradeC + (gradeC/100*20)
+// var gradeD : number = (inputUnits*1.50) 
+// var total4: number = gradeD + (gradeD/100*20)
+// if (inputUnits<=50){
+//     console.log(total1);
+// }
+// else if  (inputUnits>=50 && inputUnits<=100){
+//     console.log(total2);  
+// }
+// else if  (inputUnits>=100 && inputUnits<=250){
+//     console.log(total3);  
+// }
+// else if  (inputUnits>=250){
+//     console.log(total4);  
+// }
+// else {
+//     console.log("enter a valid units");
+// }
