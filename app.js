@@ -194,6 +194,59 @@
 // else{
 //     console.log("Not a valid number");
 // }
+// 13----> ts program to count total number of notes in given amount
+// var amount: number= Number(prompt("type here some amount"))
+// var case1 : number =amount/10
+// var case2 : number =amount/20
+// var case3 : number =amount/50
+// var case4 : number =amount/100
+// var case5 : number =amount/500
+// var case6 : number =amount/1000
+// var case7 : number =amount/5000
+// if (amount>=0 && amount<=10 && amount%10==0) {
+//     console.log(amount,"has", case1, "notes of 10");
+// }
+// else if (amount>=0 && amount<=20 && (amount%10==0 || amount%20==0)){
+//     console.log(amount,"has", case1, "notes of 10");
+//     console.log(amount,"has", case2, "notes of 20");
+// }
+// else if (amount>=20 && amount<=50 && (amount%10==0 && amount%50==0)){
+//     console.log(amount,"has", case3, "notes of 50");
+//     console.log(amount,"has", case1, "notes of 10");
+// }
+// else if (amount>=50 && amount<=100 && ( amount%20==0 && amount%50==0 && amount%100==0) ){
+//     console.log(amount,"has", case1, "notes of 10");
+//     console.log(amount,"has", case2, "notes of 20");
+//     console.log(amount,"has", case3, "notes of 50");
+//     console.log(amount,"has", case4, "notes of 100");
+// }
+// else if (amount>=100 && amount<=500 && ( amount%20==0 && amount%50==0 && amount%100==0 && amount%500==0 ) ){
+//     console.log(amount,"has", case1, "notes of 10");
+//     console.log(amount,"has", case2, "notes of 20");
+//     console.log(amount,"has", case3, "notes of 50");
+//     console.log(amount,"has", case4, "notes of 100");
+//     console.log(amount,"has", case5, "notes of 500");
+// }
+// else if (amount>=500 && amount<=1000 && ( amount%20==0 && amount%50==0 && amount%100==0 && amount%500==0 && amount%1000==0) ){
+//     console.log(amount,"has", case1, "notes of 10");
+//     console.log(amount,"has", case2, "notes of 20");
+//     console.log(amount,"has", case3, "notes of 50");
+//     console.log(amount,"has", case4, "notes of 100");
+//     console.log(amount,"has", case5, "notes of 500");
+//     console.log(amount,"has", case6, "notes of 1000");
+// }
+// else if (amount>=1000 &&  ( amount%20==0 && amount%50==0 && amount%100==0 && amount%500==0 && amount%1000==0 && amount%5000==0) ){
+//     console.log(amount,"has", case1, "notes of 10");
+//     console.log(amount,"has", case2, "notes of 20");
+//     console.log(amount,"has", case3, "notes of 50");
+//     console.log(amount,"has", case4, "notes of 100");
+//     console.log(amount,"has", case5, "notes of 500");
+//     console.log(amount,"has", case6, "notes of 1000");
+//     console.log(amount,"has", case7, "notes of 5000");
+// }
+// else {
+//     console.log("enter here a valid amount");
+// }
 // 14----> ts program to input angles of a triangle and check its validity
 // var num1 :null|string = prompt("Enter your 1st angle") 
 // var angle1 : number = Number(num1)
@@ -252,6 +305,16 @@
 // }
 // else  {console.log("this is not a triangle");
 // }
+// 17---> write a program to calculate the roots of quardratic equation
+// var a : number = Number(prompt("enter the value of a"))
+// var b : number = Number(prompt("enter the value of b"))
+// var c : number = Number(prompt("enter the value of c"))
+// var nominator: number = Math.sqrt (b*b-4*a*c)
+// var denominator : number = 2*a
+// var result1 : number = (-b + nominator)/denominator
+// var result2: number= (-b - nominator)/denominator
+// console.log(result1, "root1");
+// console.log(result2, "root2");
 // 18----> write a program to calculate profit and loss
 // var num1:string|null = prompt("type here your cost")
 // var cost : number = Number(num1)
