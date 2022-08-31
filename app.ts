@@ -71,7 +71,7 @@
 // 5----> ts program to check number is even or odd
 
 // var num:any= prompt ("Type here a Number");
-// // if(!isNaN(num)){
+// if(Number(num)){
 
 //     if (num % 2 == 0 ){
 //         console.log("number is even");
@@ -82,6 +82,10 @@
 //         console.log("number is odd");
     
 // } 
+// }
+
+// else{console.log("number is not even nor odd");
+// }
 // 6----> ts program to check leap year
 
 // var num1: any = prompt("enter here a year number")
@@ -114,17 +118,21 @@
 
 
 // var num : any = prompt("write here some character");
- 
+//  if (num >="a" && num <= "z" || num >="A" && num <= "Z" )
+//  {
 
-// if ( (num >="a" && num <= "z" || num >="A" && num <= "Z" )
-// && ( num == "a" || num == "e" || num == "i" || num == "o" || num == "u" ||
-//  num == "A" || num == "E" || num == "I" || num == "O" || num == "U") )
+// if 
+//  ( num == "a" || num == "e" || num == "i" || num == "o" || num == "u" ||
+//  num == "A" || num == "E" || num == "I" || num == "O" || num == "U") 
 //  {
 //     console.log("character is vowel");
 // }
+// else {console.log("character is constant");
+// }
+//  }
 
 // else{
-//     console.log("character is constant");
+//     console.log("character is not an alphabet");
 // }
 
 // 9----> ts program to check character is alphabet digit or special character
@@ -150,22 +158,22 @@
 
 // 10----> ts program to check upercase or lowercase
 
-// var num : any = prompt("write here some character");
+var num : any = prompt("write here some character");
 
 
-// if ( num >= "A" && num <= "Z")
-// {
-//     console.log("character is upercase alphabet");
+if ( num >= "A" && num <= "Z")
+{
+    console.log("character is upercase alphabet");
     
-// }
-// else if (num >="a"  && num <= "z") {
-//     console.log("character is lowercase alphabet");
+}
+else if (num >="a"  && num <= "z") {
+    console.log("character is lowercase alphabet");
     
-// }
-// else {
-//     console.log("character is not a aplphabet");
+}
+else {
+    console.log("character is not a aplphabet");
     
-// }
+}
 
 // 11----> ts program to input week numbers and print week days
 
@@ -177,56 +185,45 @@
 // var num5: string = "Friday"
 // var num6: string = "Saturday"
 // var num7: string = "Sunday"
-
 // if (num==1){
 //     console.log(num1);
-    
 // }
 // else if (num==2){
 //     console.log(num2);
-    
 // }
-
 // else if (num==3){
 //     console.log(num3);
-    
 // }
 // else if (num==4){
 //     console.log(num4);
-    
 // }
 // else if (num==5){
 //     console.log(num5);
-    
 // }
 // else if (num==6){
 //     console.log(num6);
-    
 // }
 // else if (num==7){
 //     console.log(num7);
-    
 // }
 // else {
 //     console.log("this is not a valid number");
-    
 // }
-
 // 12----> ts program to input month number and print number of days in that month
 
 // var num : any =prompt("Type here month number")
-// var num1 : any = "This is and January has 31 days"
-// var num2 : any = "This is and Febraury has 29 days"
-// var num3 : any = "This i and March has 31 days"
-// var num4 : any = "This is and April has 30 days"
-// var num5 : any = "This is and May has 31 days"
-// var num6 : any = "This is and June has 30 days"
-// var num7 : any = "This is and July has 31 days"
-// var num8 : any = "This is and August has 31 days"
-// var num9 : any = "This is and September has 30 days"
-// var num10 : any = "This is and October has 31 days"
-// var num11 : any = "This is and November has 30 days"
-// var num12 : any = "This is and December has 31 days"
+// var num1 : any = "This is January and has 31 days"
+// var num2 : any = "This is Febraury and has 29 days"
+// var num3 : any = "This is March and has  31 days"
+// var num4 : any = "This is April and has 30 days"
+// var num5 : any = "This is May and has 31 days"
+// var num6 : any = "This is June and has and 30 days"
+// var num7 : any = "This is July and has 31 days"
+// var num8 : any = "This is August and has 31 days"
+// var num9 : any = "This is September and has 30 days"
+// var num10 : any = "This is October and has 31 days"
+// var num11 : any = "This is November and has 30 days"
+// var num12 : any = "This is December and has 31 days"
 
 // if (num == 1){
 //     console.log(num1);
